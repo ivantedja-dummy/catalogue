@@ -2,4 +2,11 @@
 
 <theme>
     <parent>rwd/default</parent>
+    <layout>
+        <updates>
+            <tcatalog>
+                <file>tcatalog.xml</file>
+            </tcatalog>
+        </updates>
+    </layout>
 </theme>

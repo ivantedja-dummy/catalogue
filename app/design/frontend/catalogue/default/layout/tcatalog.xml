@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <catalog_product_view>
+        <!-- remove compare, wishlist -->
+        <remove name="product.info.addto"/>
+        <!-- remove add to cart, qty -->
+        <remove name="product.info.addtocart"/>
+        <!-- remove stock status -->
+        <remove name="product.info.availability"/>
+    </catalog_product_view>
+
+</layout>
