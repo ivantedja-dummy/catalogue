@@ -2,6 +2,10 @@
 
 <layout version="0.1.0">
 
+    <default>
+        <remove name="catalog.compare.sidebar"/>
+    </default>
+
     <catalog_product_view>
         <!-- remove compare, wishlist -->
         <remove name="product.info.addto"/>
