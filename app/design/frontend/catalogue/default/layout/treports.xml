@@ -4,6 +4,8 @@
 
     <default>
         <remove name="right.reports.product.compared"/>
+        <remove name="right.reports.product.viewed"/>
+        <remove name="left.reports.product.viewed"/>
     </default>
 
 </layout>
