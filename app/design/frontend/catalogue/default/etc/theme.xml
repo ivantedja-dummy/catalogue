@@ -10,6 +10,9 @@
             <tnewsletter>
                 <file>tnewsletter.xml</file>
             </tnewsletter>
+            <tpage>
+                <file>tpage.xml</file>
+            </tpage>
             <treports>
                 <file>treports.xml</file>
             </treports>
