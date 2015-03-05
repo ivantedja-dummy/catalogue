@@ -7,6 +7,9 @@
             <tcatalog>
                 <file>tcatalog.xml</file>
             </tcatalog>
+            <tcheckout>
+                <file>tcheckout.xml</file>
+            </tcheckout>
             <tnewsletter>
                 <file>tnewsletter.xml</file>
             </tnewsletter>
