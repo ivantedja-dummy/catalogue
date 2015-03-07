@@ -4,6 +4,7 @@
 
     <default>
         <remove name="welcome"/>
+        <remove name="footer_links2"/>
     </default>
 
 </layout>
