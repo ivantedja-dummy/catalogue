@@ -2,9 +2,9 @@
 
 <config>
     <modules>
-        <Tedja_Tcustomer>
+        <Tedja_Catalogue>
             <active>true</active>
             <codePool>local</codePool>
-        </Tedja_Tcustomer>
+        </Tedja_Catalogue>
     </modules>
 </config>

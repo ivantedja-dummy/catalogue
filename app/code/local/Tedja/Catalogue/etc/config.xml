@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Tedja_Catalogue>
+            <version>0.0.1</version>
+        </Tedja_Catalogue>
+    </modules>
+    <global>
+        <models>
+            <catalogue>
+                <class>Tedja_Catalogue_Model</class>
+            </catalogue>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_predispatch_checkout>
+                <observers>
+                    <checkout_noroute>
+                        <class>catalogue/observer</class>
+                        <method>sendNoroute</method>
+                    </checkout_noroute>
+                </observers>
+            </controller_action_predispatch_checkout>
+            <controller_action_predispatch_customer>
+                <observers>
+                    <customer_noroute>
+                        <class>catalogue/observer</class>
+                        <method>sendNoroute</method>
+                    </customer_noroute>
+                </observers>
+            </controller_action_predispatch_customer>
+        </events>
+    </frontend>
+</config>

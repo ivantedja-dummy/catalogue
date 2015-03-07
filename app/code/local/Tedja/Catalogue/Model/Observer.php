@@ -1,12 +1,12 @@
 <?php
 
-class Tedja_Tcheckout_Model_Observer
+class Tedja_Catalogue_Model_Observer
 {
     /**
      * Force send to no route
      *
      * @param   Varien_Event_Observer $observer
-     * @return  Tedja_Tcheckout_Model_Observer
+     * @return  Tedja_Catalogue_Model_Observer
      */
     public function sendNoroute(Varien_Event_Observer $observer)
     {
