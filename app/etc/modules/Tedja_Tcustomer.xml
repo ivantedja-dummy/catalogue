@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Tedja_Tcustomer>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Tedja_Tcustomer>
+    </modules>
+</config>

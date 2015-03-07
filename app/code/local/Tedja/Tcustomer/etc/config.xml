@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Tedja_Tcustomer>
+            <version>0.0.1</version>
+        </Tedja_Tcustomer>
+    </modules>
+    <global>
+        <models>
+            <tcustomer>
+                <class>Tedja_Tcustomer_Model</class>
+            </tcustomer>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_predispatch_customer>
+                <observers>
+                    <customer_noroute>
+                        <class>tcustomer/observer</class>
+                        <method>sendNoroute</method>
+                    </customer_noroute>
+                </observers>
+            </controller_action_predispatch_customer>
+        </events>
+    </frontend>
+</config>
